@@ -6,10 +6,13 @@ import { Link } from "gatsby"
 //import SEO from "../components/seo"
 
 import ContactBar from '../components/contactBar'
+import NavigationHeader from '../components/NavigationHeader'
+
 
 const IndexPage = () => (
  <main>
       <ContactBar/>
+      <NavigationHeader/>
    </main>
 )
 
