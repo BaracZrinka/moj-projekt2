@@ -5,11 +5,11 @@ import { Link } from "gatsby"
 //import Image from "../components/image"
 //import SEO from "../components/seo"
 
+import ContactBar from '../components/contactBar'
+
 const IndexPage = () => (
  <main>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+      <ContactBar/>
    </main>
 )
 
