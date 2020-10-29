@@ -7,12 +7,14 @@ import { Link } from "gatsby"
 
 import ContactBar from '../components/contactBar'
 import NavigationHeader from '../components/NavigationHeader'
+import Footer from '../components/Footer'
 
 
 const IndexPage = () => (
  <main>
       <ContactBar/>
       <NavigationHeader activeTab = "Contact"/>
+      <Footer/>
    </main>
 )
 
